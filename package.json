@@ -1,0 +1,23 @@
+{
+  "name": "ng-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.6",
+    "angular-templatecache-loader": "^0.1.0",
+    "lodash": "^4.13.1",
+    "ui-router": "^1.0.0-alpha.3",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}

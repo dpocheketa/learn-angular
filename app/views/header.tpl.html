@@ -1,0 +1,11 @@
+<div>
+  <ul>
+    <li ui-sref-active="active"
+        ng-repeat="item in header.menuItems">
+      <a href="#"
+         ui-sref="{{item.state}}">
+        {{item.title}}
+      </a>
+    </li>
+  </ul>
+</div>
